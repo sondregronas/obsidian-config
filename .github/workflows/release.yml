@@ -1,0 +1,13 @@
+name: Release
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Release Template
+      uses: thedoctor0/zip-release@main
+      with:
+        type: 'zip'
+        filename: 'sondregronas-obsidian.zip'
+        path: 'Obsidian/'
