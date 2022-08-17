@@ -15,6 +15,10 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
+      "folder": "2022",
+      "template": "_cfg/templates/new-weekly.md"
+    },
+    {
       "folder": "/",
       "template": "_cfg/templates/new-docs.md"
     }
