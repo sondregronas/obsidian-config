@@ -5,9 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Release Template
+    - name: Build Zip
       uses: thedoctor0/zip-release@main
       with:
         type: 'zip'
         filename: 'sondregronas-obsidian.zip'
         path: 'Obsidian/'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "sondregronas-obsidian.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
