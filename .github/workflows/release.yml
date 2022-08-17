@@ -10,7 +10,7 @@ jobs:
       with:
         type: 'zip'
         filename: 'sondregronas-obsidian.zip'
-        path: 'Obsidian/'
+        directory: 'Obsidian/'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
