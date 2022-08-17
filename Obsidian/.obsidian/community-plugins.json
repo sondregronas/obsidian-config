@@ -9,5 +9,10 @@
   "update-time-on-edit",
   "templater-obsidian",
   "cmenu-plugin",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "sliding-panes-obsidian",
+  "tag-wrangler",
+  "url-into-selection",
+  "find-unlinked-files",
+  "emoji-shortcodes"
 ]

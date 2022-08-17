@@ -11,5 +11,6 @@
       "brackets": true
     }
   ],
-  "exportFormats": []
+  "exportFormats": [],
+  "shouldShowCiteSuggest": true
 }
