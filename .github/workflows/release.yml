@@ -15,4 +15,6 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "sondregronas-obsidian.zip"
+        allowUpdates: True
+        tag: 'latest'
         token: ${{ secrets.GITHUB_TOKEN }}
