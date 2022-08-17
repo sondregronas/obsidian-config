@@ -1,0 +1,5 @@
+div[data-path='_cfg'], 
+div[data-path='_cfg'] + div.nav-folder-children 
+{
+    display: none;
+}

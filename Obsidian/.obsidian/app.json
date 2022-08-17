@@ -1,0 +1,22 @@
+{
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 70
+  },
+  "newFileLocation": "current",
+  "showFrontmatter": false,
+  "spellcheck": false,
+  "newLinkFormat": "shortest",
+  "foldIndent": false,
+  "showLineNumber": false,
+  "autoConvertHtml": true,
+  "smartIndentList": true,
+  "legacyEditor": false,
+  "livePreview": true,
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "./_attachments",
+  "userIgnoreFilters": null
+}
